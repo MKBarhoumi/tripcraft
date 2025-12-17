@@ -1,0 +1,141 @@
+# TripCraft - Git Ignore File
+
+# ===========================
+# Environment & Secrets
+# ===========================
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+*.key
+secrets/
+config/secrets.yaml
+
+# ===========================
+# Backend (Python/FastAPI)
+# ===========================
+tripcraft-backend/.env
+tripcraft-backend/__pycache__/
+tripcraft-backend/**/__pycache__/
+tripcraft-backend/**/*.pyc
+tripcraft-backend/**/*.pyo
+tripcraft-backend/**/*.pyd
+tripcraft-backend/.pytest_cache/
+tripcraft-backend/.coverage
+tripcraft-backend/htmlcov/
+tripcraft-backend/dist/
+tripcraft-backend/build/
+tripcraft-backend/*.egg-info/
+tripcraft-backend/.venv/
+tripcraft-backend/venv/
+tripcraft-backend/ENV/
+
+# ===========================
+# Frontend (Flutter)
+# ===========================
+tripcraft_app/.env
+
+# Flutter/Dart/Pub related
+tripcraft_app/.dart_tool/
+tripcraft_app/.flutter-plugins
+tripcraft_app/.flutter-plugins-dependencies
+tripcraft_app/.packages
+tripcraft_app/.pub-cache/
+tripcraft_app/.pub/
+tripcraft_app/build/
+tripcraft_app/flutter_*.png
+tripcraft_app/linked_*.ds
+tripcraft_app/unlinked.ds
+tripcraft_app/unlinked_spec.ds
+
+# IntelliJ/Android Studio
+tripcraft_app/.idea/
+tripcraft_app/*.iml
+tripcraft_app/*.ipr
+tripcraft_app/*.iws
+tripcraft_app/.idea_modules/
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Android
+tripcraft_app/android/app/google-services.json
+tripcraft_app/android/key.properties
+tripcraft_app/android/.gradle/
+tripcraft_app/android/captures/
+tripcraft_app/android/local.properties
+tripcraft_app/android/**/*.jks
+tripcraft_app/android/**/*.keystore
+
+# iOS
+tripcraft_app/ios/Flutter/.last_build_id
+tripcraft_app/ios/Flutter/flutter_export_environment.sh
+tripcraft_app/ios/Pods/
+tripcraft_app/ios/.symlinks/
+tripcraft_app/ios/Flutter/App.framework
+tripcraft_app/ios/Flutter/Flutter.framework
+tripcraft_app/ios/Flutter/Flutter.podspec
+tripcraft_app/ios/ServiceDefinitions.json
+tripcraft_app/ios/Runner/GoogleService-Info.plist
+
+# Hive Database
+tripcraft_app/*.hive
+tripcraft_app/*.lock
+
+# ===========================
+# Database & Docker
+# ===========================
+*.sql.backup
+*.dump
+postgres-data/
+docker-compose.override.yml
+.docker/
+
+# ===========================
+# PDF & Temp Files
+# ===========================
+*.pdf
+/tmp/
+temp/
+*.tmp
+pdfs/
+
+# ===========================
+# OS Generated Files
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===========================
+# Testing
+# ===========================
+coverage/
+.coverage.*
+test-results/
+*.test.cache
+
+# ===========================
+# Editor Backups
+# ===========================
+*~
+*.swp
+*.swo
+*.bak
+*.backup
