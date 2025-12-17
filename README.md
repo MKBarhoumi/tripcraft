@@ -5,7 +5,6 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.0+-02569B?logo=flutter)](https://flutter.dev)
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![License](https://img.shields.io/badge/License-Educational-blue.svg)](LICENSE)
 
 ---
 
@@ -95,12 +94,6 @@ flutter run
 ## ✅ Setup Progress
 
 ### ✨ Completed Tasks
-
-- [x] **Task 20**: Supabase & Environment Variables Setup
-  - Database schema SQL created
-  - Environment templates configured
-  - Setup helper script created
-  - Storage bucket guide provided
 
 - [x] **Task FE-1**: Frontend Scaffold & Dependencies
   - Flutter project created with complete structure
@@ -299,10 +292,6 @@ flutter run
   - Complete API documentation (EXPORT_API_GUIDE.md)
   - Error handling for all scenarios
 
-### 🎉 All Tasks Complete!
-
-The TripCraft project is now **100% complete** with all 20 tasks implemented!
-
 ---
 
 ## 🏗️ Architecture
@@ -329,13 +318,6 @@ The TripCraft project is now **100% complete** with all 20 tasks implemented!
 
 ---
 
-## 📚 Documentation
-
-- **[SUPABASE_SETUP.md](./SUPABASE_SETUP.md)** - Complete Supabase setup guide
-- **[trip_craft_full_spec_and_implementation_prompts.md](./trip_craft_full_spec_and_implementation_prompts.md)** - Full specification
-
----
-
 ## 🔐 Security Notes
 
 **NEVER commit these files:**
@@ -352,7 +334,6 @@ All sensitive files are already in `.gitignore`.
 
 | Phase | Tasks | Status |
 |-------|-------|--------|
-| **Setup** | Task 20 | ✅ Complete |
 | **Frontend** | Tasks FE-1 to FE-12 | ✅ Complete |
 | **Backend Core** | Tasks BE-1 to BE-3 | ✅ Complete |
 | **Backend AI** | Tasks BE-4 to BE-5 | ✅ Complete |
@@ -361,32 +342,9 @@ All sensitive files are already in `.gitignore`.
 
 ---
 
-## 🤝 Contributing
-
-This is a school project. Implementation follows the spec in `trip_craft_full_spec_and_implementation_prompts.md`.
-
----
-
-## 📄 License
-
-Educational project - Mobile Development Course, 3rd Year, Semester 1
-
----
-
 ## 🎯 Current Focus
 
 **🎉 PROJECT 100% COMPLETE! 🎉**
-
-All 20 tasks successfully implemented:
-- ✅ Task 20: Environment setup and configuration
-- ✅ Tasks FE-1 to FE-12: ALL Frontend tasks (12/12)
-- ✅ Task BE-1: Backend Scaffold & Database Models
-- ✅ Task BE-2: Authentication Endpoints
-- ✅ Task BE-3: Trip CRUD Endpoints
-- ✅ Task BE-4: AI Itinerary Generation
-- ✅ Task BE-5: Chat Refinement
-- ✅ Task BE-6: Sync Endpoints
-- ✅ Task BE-7: PDF Export
 
 **Status**: Production-ready full-stack application with AI-powered travel planning!
 
